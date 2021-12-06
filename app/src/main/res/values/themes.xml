@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DesignThemesApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/dark_pg</item>
+        <item name="colorOnPrimary">@color/purple_cp</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/sec_yellow</item>
+        <item name="colorSecondaryVariant">@color/dark_sy</item>
+        <item name="colorOnSecondary">@color/lilac_cp</item>
+        <item name="colorAccent">@color/lilac_cp</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textViewStyle">@style/Theme.FontApp.TextView</item>
+        <item name="android:buttonStyle">@style/Theme.FontButtonApp.Button</item>
+    </style>
+
+    <style name="Theme.FontApp.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/purple_cp</item>
+    </style>
+
+    <style name="Theme.FontButtonApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Theme.DesignThemesApp.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+</resources>
